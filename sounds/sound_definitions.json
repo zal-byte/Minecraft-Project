@@ -1768,19 +1768,19 @@
   "mob.creeper.death": {
     "category": "hostile",
     "sounds": [
-      "sounds/music/game/mob/creeper-after"
+      "sounds/mob/creeper/death"
     ]
   },
   "mob.creeper.say": {
     "category": "hostile",
     "sounds": [
       {
-        "name": "sounds/music/game/mob/creeper-before",
+        "name": "sounds/mob/creeper/say1",
         "load_on_low_memory": true
       },
-      "sounds/music/game/mob/creeper-before", // Default : "sounds/mob/creeper/say2",
-      "sounds/music/game/mob/creeper-before", // Default : "sounds/mob/creeper/say3",
-      "sounds/music/game/mob/creeper-before" // Default : "sounds/mob/creeper/say4"
+      "sounds/mob/creeper/say2",
+      "sounds/mob/creeper/say3",
+      "sounds/mob/creeper/say4"
     ]
   },
   "mob.dolphin.idle_water": {
@@ -5211,7 +5211,7 @@
     "category": "block",
     "sounds": [
       {
-        "name": "sounds/music/game/mob/creeper_before_pitched_2",
+        "name": "sounds/random/fuse",
         "load_on_low_memory": true
       }
     ]
