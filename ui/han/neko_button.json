@@ -21,7 +21,7 @@
       "$border_visible": false,
       "$font_type": "MinecraftTen",
       "$default_text_color|default": [ 1.0, 1.0, 1.0 ],
-      "$hover_text_color|default": [ 0.0, 0.0, 0.0 ]
+      "$hover_text_color|default": [ 0.94, 0.76, 0.86 ]
     },
      
     "fxbutton1@neko_button.light_text_button": {
