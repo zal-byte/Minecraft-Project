@@ -5182,11 +5182,11 @@
     "category": "player",
     "sounds": [
       {
-        "name": "sounds/random/eat1",
+        "name": "sounds/music/game/player/eating",
         "load_on_low_memory": true
       },
-      "sounds/random/eat2",
-      "sounds/random/eat3"
+      "sounds/music/game/player/eating",
+      "sounds/music/game/player/eating"
     ]
   },
   "random.explode": {
