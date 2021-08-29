@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "My Facebook : FX(FarhanX)",
+        "name": "§dNeko§fCraft",
+        "uuid": "deceb819-4a6d-448b-9278-4f3612f67ef5",
+        "version": [1, 7, 5],
+        "min_engine_version": [ 1, 16, 5 ]
+    },
+    "modules": [
+        {
+            "description": "My Facebook : FX(FarhanX)",
+            "type": "resources",
+            "uuid": "4893294e-2055-4d33-bfcd-dfdfe4f5e132",
+            "version": [1, 7, 5]
+        }
+    ]
+}
