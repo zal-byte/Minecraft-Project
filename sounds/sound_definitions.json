@@ -1778,9 +1778,9 @@
         "name": "sounds/music/game/mob/creeper-before",
         "load_on_low_memory": true
       },
-      "sounds/mob/creeper/say2",
-      "sounds/mob/creeper/say3",
-      "sounds/mob/creeper/say4"
+      "sounds/music/game/mob/creeper-before", // Default : "sounds/mob/creeper/say2",
+      "sounds/music/game/mob/creeper-before", // Default : "sounds/mob/creeper/say3",
+      "sounds/music/game/mob/creeper-before" // Default : "sounds/mob/creeper/say4"
     ]
   },
   "mob.dolphin.idle_water": {
