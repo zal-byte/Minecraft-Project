@@ -82,6 +82,13 @@
           "orientation": "horizontal",
           "controls": [
             {
+              "gameplay_button@custom_settings_section.gameplay_button": {
+                "size": [ "50%" , 30 ],
+                "$toggle_group_forced_index": 2000,
+                "ignored": "(not $include_controls_and_settings_sections)"
+              }
+            },
+            {
               "graphic_button@custom_settings_section.graphic_button": {
                 "size": [ "50%" , 30 ],
                 "$toggle_group_forced_index": 2000,
@@ -359,8 +366,9 @@
             // C U S T O M S E C T I ON 
 
 
-            { "graphic_section@custom_settings_section.graphic_section": { "visible": false } },
-            { "about_section@custom_settings_section.about_section": { "visible": false } },
+            { "graphic_section@custom_settings_section.graphic_section": { "visible": false }},
+            { "gameplay_section@custom_settings_section.gameplay_section": { "visible": true }},
+            { "about_section@custom_settings_section.about_section": { "visible": false }},
             
 
             //

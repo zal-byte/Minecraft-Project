@@ -243,9 +243,9 @@
 
   "gameplay_button@settings_common.section_toggle_base": {
     "$toggle_view_binding_name": "gameplay_button_toggle",
-    "$glyph_texture": "textures/ui-x/icon-settings/game_settings",
-    "$glyph_color_texture": "textures/ui-x/icon-settings/game_settings",
-    "$glyph_size": [ 16, 16 ],
+    "$glyph_texture": "textures/ui-x/glyph/controller_glyph_color",
+    "$glyph_color_texture": "textures/ui-x/glyph/controller_glyph_color",
+    "$glyph_size": [ 23, 23 ],
     "$button_text": "neko.gameplay",
     "$toggle_property_bag": {
       "#panel_title": "neko.title_gameplay"
