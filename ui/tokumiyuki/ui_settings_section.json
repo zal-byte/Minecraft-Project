@@ -592,7 +592,7 @@
       },
       // Build
       { "build@custom_settings_section.fxn_label": { "text": "Build : " ,"shadow": false }},
-      { "build_2@custom_settings_section.fxn_label": { "font_size":"large", "text": "057" , "shadow": false }},
+      { "build_2@custom_settings_section.fxn_label": { "font_size":"large", "text": "095" , "shadow": false }},
       { "about@custom_settings_section.fxn_label": { "text": "Weebs Resourcepack\nCreated By Farhan(Han)" ,"shadow": false }},
       {
         "dividerAudioSettings": {
