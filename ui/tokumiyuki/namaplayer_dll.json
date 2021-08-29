@@ -98,6 +98,13 @@
           "orientation": "horizontal",
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left", 
+          "animation_reset_name": "screen_animation_reset",
+          "anims": [
+            "@anim_test.screen_exit_animation_push_offset",
+            "@anim_test.screen_exit_animation_pop_offset",
+            "@anim_test.screen_entrance_animation_push_offset",
+            "@anim_test.screen_entrance_animation_pop_offset"
+          ],
           "controls": [
               {
                 "panel_nama_pict@loli.panel_nama_pict": { "controls": [ { "gamerpic@loli.gamerpic": {}}]}
@@ -158,6 +165,13 @@
       "size": [ "100%" , 20 ],
       "anchor_from": "bottom_right",
       "anchor_to": "bottom_right",
+      "animation_reset_name": "screen_animation_reset",
+      "anims": [
+        "@anim_test.screen_exit_animation_push_offset",
+        "@anim_test.screen_exit_animation_pop_offset",
+        "@anim_test.screen_entrance_animation_push_offset",
+        "@anim_test.screen_entrance_animation_pop_offset"
+      ],
       "controls": [
         {
           "stack_panel": {
