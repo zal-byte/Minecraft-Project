@@ -9,7 +9,7 @@
   
     "$light_toggle_default_text_color": [ 1.0, 1.0, 1.0 ],
     "$light_toggle_hover_text_color": [ 0.0, 0.0, 0.0 ],
-    "$light_toggle_checked_default_text_color": [ 0.0, 0.0, 0.0 ],
+    "$light_toggle_checked_default_text_color": [ 0.94, 0.76, 0.86 ],
     "$light_toggle_checked_hover_text_color": [ 1.0, 1.0, 1.0 ],
   
     "$dark_button_default_text_color": [ 1.0, 1.0, 1.0 ],
