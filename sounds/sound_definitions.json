@@ -5104,13 +5104,13 @@
   "random.enderchestopen": {
     "category": "block",
     "sounds": [
-      "sounds/block/enderchest/open"
+      "sounds/music/game/chest/yabe-kyaa-update"
     ]
   },
   "random.enderchestclosed": {
     "category": "block",
     "sounds": [
-      "sounds/block/enderchest/close"
+      "sounds/music/game/chest/medu-kyaa-update"
     ]
   },
   "random.potion.brewed": {
