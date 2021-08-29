@@ -5080,13 +5080,13 @@
   "random.chestclosed": {
     "category": "block",
     "sounds": [
-      "sounds/music/game/chest/medu-kyaa"
+      "sounds/music/game/chest/medu-kyaa-update"
     ]
   },
   "random.chestopen": {
     "category": "block",
     "sounds": [
-      "sounds/music/game/chest/yabe-kyaa"
+      "sounds/music/game/chest/yabe-kyaa-update"
     ]
   },
   "random.shulkerboxclosed": {
