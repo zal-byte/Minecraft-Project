@@ -613,28 +613,26 @@
         }
       },
       //SOSIAL MEDIA
-      { "label@custom_settings_section.fxn_label": { "text": "Support Me :" , "shadow": true }},
-      { "label@custom_settings_section.fxn_label": { "text": "Facebook:"}},
+      { "label@custom_settings_section.fxn_label": { "text": "Contributors:" , "shadow": true }},
       {
-        "facebook_fx@settings_common.link_button": {
-        "$button_text": "FX(Farhanx)",
+        "cc1@settings_common.link_button": {
+        "$button_text": "Han",
         "font_type": "MinecraftTen",
         "color": [ 1.0 , 1.0 , 1.0 ],
         "size": [ "100%" , 30 ],
         "property_bag": {
-        "#hyperlink": "https://facebook.com/fx02072005"
+        "#hyperlink": ""
       }
     }
   },
-  { "label@custom_settings_section.fxn_label": { "text": "Instagram:"}},
     {
-      "ig_fx@settings_common.link_button": {
-              "$button_text": "fnx719",
+      "cc2@settings_common.link_button": {
+              "$button_text": "Zal - Byte",
               "font_type": "MinecraftTen",
               "color": [ 1.0 , 1.0 , 1.0 ],
               "size": [ "100%" , 30 ],
               "property_bag": {
-              "#hyperlink": "https://www.instagram.com/fnx719"
+              "#hyperlink": ""
             }
           }
         }
