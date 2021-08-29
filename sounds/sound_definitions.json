@@ -1251,12 +1251,12 @@
   "game.player.hurt": {
     "category": "player",
     "sounds": [
-      "sounds/damage/hit1",
+      "sounds/music/game/player/player-get-hit",
       {
-        "name": "sounds/damage/hit2",
+        "name": "sounds/music/game/player/player-get-hit",
         "load_on_low_memory": true
       },
-      "sounds/damage/hit3"
+      "sounds/music/game/player/player-get-hit"
     ]
   },
   "game.player.die": {
