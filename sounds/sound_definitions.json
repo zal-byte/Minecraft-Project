@@ -1768,14 +1768,14 @@
   "mob.creeper.death": {
     "category": "hostile",
     "sounds": [
-      "sounds/mob/creeper/death"
+      "sounds/music/game/mob/creeper-after"
     ]
   },
   "mob.creeper.say": {
     "category": "hostile",
     "sounds": [
       {
-        "name": "sounds/mob/creeper/say1",
+        "name": "sounds/music/game/mob/creeper-before",
         "load_on_low_memory": true
       },
       "sounds/mob/creeper/say2",
