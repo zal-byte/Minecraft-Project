@@ -183,7 +183,7 @@
     "type": "panel",
     "anchor_to": "middle",
     "anchor_from": "middle",
-    "size": [ 245 , 245 ],
+    "size": [ 240 , 240 ],
     "offset": [ 0 , 0 ],
     "controls": [
       { "viewer_panel@start.skin_viewer_panel": {} }
