@@ -5211,7 +5211,7 @@
     "category": "block",
     "sounds": [
       {
-        "name": "sounds/music/game/mob/creeper_before_pitched_ogg",
+        "name": "sounds/music/game/mob/creeper_before_pitched_2",
         "load_on_low_memory": true
       }
     ]
