@@ -2,9 +2,9 @@
     "format_version": 2,
     "header": {
         "description": "My Facebook : Han",
-        "name": "§dWeeb§fEdition",
+        "name": "§dHentai§fEdition",
         "uuid": "2db192c5-1c44-4298-b6df-8fc0da23814e",
-        "version": [1, 7, 5],
+        "version": [1, 0, 0],
         "min_engine_version": [ 1, 16, 2 ]
     },
     "modules": [
@@ -12,7 +12,7 @@
             "description": "My Facebook : Han",
             "type": "resources",
             "uuid": "76986314-44b7-463d-980b-86c650ad78e7",
-            "version": [1, 7, 5]
+            "version": [1, 0, 0]
         }
     ]
 }
