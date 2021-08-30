@@ -323,7 +323,7 @@
     "$toggle_view_binding_name": "game_button_toggle",
     "$glyph_texture": "textures/ui/controller_glyph",
     "$glyph_color_texture": "textures/ui/controller_glyph_color",
-    "$glyph_size": [ 21, 14 ],
+    "$glyph_size": [ 23, 23 ],
     "$button_text": "options.category.game",
     "$toggle_property_bag": {
       "#panel_title": "createWorldScreen.game.settings"
