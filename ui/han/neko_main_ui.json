@@ -11,7 +11,7 @@
   },
 
   "play_icon@rem.icon_0": {
-    "texture": "textures/fnxcorestart/play"
+    "texture": "textures/fnxcore/start/play"
   },
 
   "achievements_icon@rem.icon_0": {
@@ -91,7 +91,7 @@
   "button_dan_icon": {
     "type": "panel",
     "size": [ 130 , "100%" ], 
-    "offset": [ 7 , 0 ],
+    "offset": [ 10 , 0 ],
     "anchor_from": "left_middle",
     "anchor_to": "left_middle",
     "controls": [
