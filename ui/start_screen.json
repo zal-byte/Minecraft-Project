@@ -124,10 +124,10 @@
                 "offset": [ 0, -30 ],
                 "animation_reset_name": "screen_animation_reset",
                 "anims": [
-                  "@anim_test.screen_exit_animation_push_offset_2",
-                  "@anim_test.screen_exit_animation_pop_offset_2",
-                  "@anim_test.screen_entrance_animation_push_offset_2",
-                  "@anim_test.screen_entrance_animation_pop_offset_2"
+                  "@common.screen_exit_animation_push_alpha",
+                  "@common.screen_exit_animation_pop_alpha",
+                  "@common.screen_entrance_animation_push_alpha",
+                  "@common.screen_entrance_animation_pop_alpha"
                 ],
                 "bindings": [
                   {
