@@ -5225,12 +5225,17 @@
     ]
   },
   // Kukira fuse creeper ternyata iya :v
+
+
+  //New commit
   "random.fuse": {
     "category": "block",
     "sounds": [
       {
         //default : "name": "sounds/random/fuse",
-        "name": "sounds/random/creeper-before",
+        //previous : "name": "sounds/random/creeper-before",
+        //newest
+        "name": "sounds/music/game/mob/creeper/creeper-before",
         "load_on_low_memory": true
       }
     ]
