@@ -5218,12 +5218,12 @@
       "sounds/random/fizz"
     ]
   },
-  // Kukira fuse creeper ternyata bukan :()
+  // Kukira fuse creeper ternyata iya :v
   "random.fuse": {
     "category": "block",
     "sounds": [
       {
-        "name": "sounds/random/fuse",
+        "name": "sounds/random/creeper-before",
         "load_on_low_memory": true
       }
     ]
