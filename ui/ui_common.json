@@ -5203,7 +5203,7 @@
         "loading_bars_background": {
           "type": "image",
           "visible": "$use_loading_bars",
-          "texture": "textures/ui/effect_background",
+          "texture": "textures/ui-x/loading_bar_bg",
           "size": [ "33%", "100%c + 16px" ],
           "alpha": 0.0,
           "propagate_alpha": true,
