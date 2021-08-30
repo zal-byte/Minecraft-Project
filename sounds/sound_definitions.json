@@ -5191,13 +5191,22 @@
   "random.explode": {
     "category": "block",
     "sounds": [
+        
       {
+        "name":"sounds/music/game/mob/creeper-after",
+        "load_on_low_memory":true
+      }
+      "sounds/music/game/mob/creeper-after",
+      "sounds/music/game/mob/creeper-after",
+      "sounds/music/game/mob/creeper-after"
+
+      /**{
         "name": "sounds/random/explode1",
         "load_on_low_memory": true
       },
       "sounds/random/explode2",
       "sounds/random/explode3",
-      "sounds/random/explode4"
+      "sounds/random/explode4"**/
     ]
   },
   "random.fizz": {
