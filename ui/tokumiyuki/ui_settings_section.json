@@ -625,6 +625,7 @@
       }
     }
   },
+  { "space": { "type": "panel", "size": [ 3 , 3 ]}},
     {
       "cc2@settings_common.link_button": {
               "$button_text": "Zal - Byte",
