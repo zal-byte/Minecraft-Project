@@ -72,7 +72,7 @@
       {
         "nakanonino@settings_common.selector_group_label": {
           "ignored": "(not $include_controls_and_settings_sections)",
-          "text": "Grafis Minecraft"
+          "text": "Pengaturan Grafis\nGameplay dan Video"
         }
       },
       {
@@ -99,16 +99,28 @@
         }
       },
       {
+        "video_button@general_section.video_button": {
+          "ignored": "(not $include_controls_and_settings_sections)",
+          "$toggle_group_forced_index": "$video_forced_index",
+          "$tts_section_header": "$general_section_header"
+        }
+      },
+      {
+        "nakanoitsuki@settings_common.selector_group_label": {
+          "ignored": "(not $include_controls_and_settings_sections)",
+          "text": "Tentang Resourcepack\nDan Source"
+        }
+      },
+      {
         "about_button@custom_settings_section.about_button": {
           "$toggle_group_forced_index": 4000,
           "ignored": "(not $include_controls_and_settings_sections)"
         }
       },
       {
-        "video_button@general_section.video_button": {
-          "ignored": "(not $include_controls_and_settings_sections)",
-          "$toggle_group_forced_index": "$video_forced_index",
-          "$tts_section_header": "$general_section_header"
+        "source_button@custom_settings_section.source_button": {
+          "$toggle_group_forced_index": 6000,
+          "ignored": "(not $include_controls_and_settings_sections)"
         }
       },
       {
@@ -369,6 +381,7 @@
             { "graphic_section@custom_settings_section.graphic_section": { "visible": false }},
             { "gameplay_section@custom_settings_section.gameplay_section": { "visible": true }},
             { "about_section@custom_settings_section.about_section": { "visible": false }},
+            { "source_section@custom_settings_section.source_section": { "visible": false }},
             
 
             //
