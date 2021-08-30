@@ -294,7 +294,7 @@
           "hurt": "mob.creeper.say",
           "death": "mob.creeper.death",
           "fuse": {
-            "sound": "random.fuse",
+            "sound": "random.creeper_fuse",
             "volume": 1.0,
             "pitch": 1.0
           }
