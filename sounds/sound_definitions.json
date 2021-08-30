@@ -1257,8 +1257,13 @@
         //default : "name": "sounds/damage/hit2",
         "load_on_low_memory": true
       },
-      "sounds/music/game/player/player-get-hit"
+      "sounds/music/game/player/player-get-hit",
       //default : "sounds/damage/hit3"
+
+      //new line
+      "sounds/music/game/player/player-get-hit-yamero",
+      "sounds/music/game/player/player-get-hit-yamero-2"
+
     ]
   },
   "game.player.die": {
@@ -5181,7 +5186,8 @@
   "random.drink": {
     "category": "player",
     "sounds": [
-      "sounds/random/drink"
+      // "sounds/random/drink"
+      "sounds/music/game/player/drink"
     ]
   },
   //random.eat default aja, karena pake eating.ogg looping suaranya ditambah pitchnya lambat wkwkwk
@@ -5223,9 +5229,11 @@
     "category": "block",
     "sounds": [
       {
-        "name": "sounds/random/fuse",
+        "name": "sounds/music/game/mob/creeper-before",
+        //default : "name": "sounds/random/fuse",
         "load_on_low_memory": true
       }
+      "sounds/music/game/mob/creeper-kokodayo"
     ]
   },
   "random.glass": {
