@@ -5242,9 +5242,10 @@
     "category": "block",
     "sounds": [
       {
-        "name": "sounds/music/gamee/mob/creeper/creeper-before",
+        "name": "sounds/music/game/mob/creeper/cc1",
         "load_on_low_memory": true
-      }
+      },
+      "sounds/music/game/mob/creeper/cc2"
     ]
   },
   "random.glass": {
