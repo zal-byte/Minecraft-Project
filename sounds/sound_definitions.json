@@ -6098,25 +6098,25 @@
     "category": "music",
     "sounds": [
       {
-        "name": "sounds/music/menu/menu1",
+        "name": "sounds/music/menu/mafumafu",
         "stream": true,
         "volume": 0.3,
         "load_on_low_memory": true
       },
       {
-        "name": "sounds/music/menu/menu2",
+        "name": "sounds/music/menu/mafumafu",
         "stream": true,
         "volume": 0.3,
         "load_on_low_memory": true
       },
       {
-        "name": "sounds/music/menu/menu3",
+        "name": "sounds/music/menu/mafumafu",
         "stream": true,
         "volume": 0.3,
         "load_on_low_memory": true
       },
       {
-        "name": "sounds/music/menu/menu4",
+        "name": "sounds/music/menu/mafumafu",
         "stream": true,
         "volume": 0.3,
         "load_on_low_memory": true
