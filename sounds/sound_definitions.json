@@ -4442,7 +4442,7 @@
   "mob.cat.hit": {
     "category": "neutral",
     "sounds": [
-      "sound/music/game/mob/cat_hit1",
+      "sounds/music/game/mob/cat_hit1",
       "sounds/music/game/mob/cat_hit2"
       //"sounds/mob/cat/hitt2",
       // "sounds/mob/cat/hitt3"
@@ -4485,12 +4485,14 @@
       }
     ]
   },
+  //0x0000
+  //0x5000
   "mob.cat.beg": {
     "category": "neutral",
     "sounds": [
       {
         //"name": "sounds/mob/cat/beg1",
-        "name":"sound/music/game/mob/cat1",
+        "name":"sounds/music/game/mob/cat1",
         "volume": 0.7
       },
       {
