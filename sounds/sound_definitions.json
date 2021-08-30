@@ -4449,28 +4449,38 @@
   "mob.cat.hit": {
     "category": "neutral",
     "sounds": [
-      "sounds/mob/cat/hitt1",
+      //default
+      /**"sounds/mob/cat/hitt1",
       "sounds/mob/cat/hitt2",
-      "sounds/mob/cat/hitt3"
+      "sounds/mob/cat/hitt3"**/
+    
+      //new 
+      "sounds/music/game/mob/cat/cat_hit1",
+      "sounds/music/game/mob/cat/cat_hit2",
+      "sounds/music/game/mob/cat/cat_hit3"
     ]
   },
   "mob.cat.meow": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "sounds/mob/cat/meow1",
+        "name": "sounds/music/game/mob/cat/cat1",
+        //default "name": "sounds/mob/cat/meow1",
         "volume": 0.4
       },
       {
-        "name": "sounds/mob/cat/meow2",
+        "name": "sounds/music/game/mob/cat/cat2",
+        //default "name": "sounds/mob/cat/meow2",
         "volume": 0.3
       },
       {
-        "name": "sounds/mob/cat/meow3",
+        "name": "sounds/music/game/mob/cat/cat3",
+        //default "name": "sounds/mob/cat/meow3",
         "volume": 0.4
       },
       {
-        "name": "sounds/mob/cat/meow4",
+        "name": "sounds/music/game/mob/cat/cat4",
+        //default "name": "sounds/mob/cat/meow4",
         "volume": 0.3
       }
     ]
@@ -4492,15 +4502,18 @@
       }
     ]
   },
+  //moew cat tho!!!!!!!!!!!!!!!!!!!!!!!!
   "mob.cat.straymeow": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "sounds/mob/cat/stray/idle1",
+        "name": "sounds/music/game/mob/cat/cat1",
+        //default "name": "sounds/mob/cat/stray/idle1",
         "volume": 0.35
       },
       {
-        "name": "sounds/mob/cat/stray/idle2",
+        "name": "sounds/music/game/mob/cat/cat2",
+        //default "name": "sounds/mob/cat/stray/idle2",
         "volume": 0.35
       },
       {
@@ -4510,7 +4523,9 @@
       {
         "name": "sounds/mob/cat/stray/idle4",
         "volume": 0.35
-      }
+      },
+      //Mueheheheh
+      "sounds/music/game/mob/cat/cat_hit2"
     ]
   },
   "mob.cat.purr": {
