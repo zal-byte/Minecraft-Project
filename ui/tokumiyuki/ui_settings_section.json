@@ -571,7 +571,7 @@
       { "spacer": { "type": "panel", "size": [ 10 , 10 ]}},
       // Versi
       { "version@custom_settings_section.fxn_label": { "text": "Version : " ,"shadow": false }},
-      { "version_2@custom_settings_section.fxn_label": { "font_size":"large", "text": "v1.7.5 | Beta" , "shadow": false }},
+      { "version_2@custom_settings_section.fxn_label": { "font_size":"large", "text": "v1.7.5 | Stable" , "shadow": false }},
       {
         "dividerAudioSettings": {
           "type": "panel",
@@ -592,7 +592,7 @@
       },
       // Build
       { "build@custom_settings_section.fxn_label": { "text": "Build : " ,"shadow": false }},
-      { "build_2@custom_settings_section.fxn_label": { "font_size":"large", "text": "095" , "shadow": false }},
+      { "build_2@custom_settings_section.fxn_label": { "font_size":"large", "text": "097" , "shadow": false }},
       { "about@custom_settings_section.fxn_label": { "text": "Weebs Resourcepack\nCreated By Farhan(Han)" ,"shadow": false }},
       {
         "dividerAudioSettings": {
