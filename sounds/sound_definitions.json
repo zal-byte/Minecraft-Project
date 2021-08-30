@@ -4443,7 +4443,7 @@
     "category": "neutral",
     "sounds": [
       "sounds/music/game/mob/cat_hit1",
-      "sounds/music/game/mob/cat_hit2"
+      "sounds/music/game/mob/cat_hit2",
       //"sounds/mob/cat/hitt2",
       // "sounds/mob/cat/hitt3"
       "sounds/music/game/mob/cat_hit3"
