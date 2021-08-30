@@ -4442,29 +4442,46 @@
   "mob.cat.hit": {
     "category": "neutral",
     "sounds": [
-      "sounds/mob/cat/hitt1",
-      "sounds/mob/cat/hitt2",
-      "sounds/mob/cat/hitt3"
+      "sound/music/game/mob/cat_hit1",
+      "sounds/music/game/mob/cat_hit2"
+      //"sounds/mob/cat/hitt2",
+      // "sounds/mob/cat/hitt3"
+      "sounds/music/game/mob/cat_hit3"
     ]
   },
   "mob.cat.meow": {
     "category": "neutral",
     "sounds": [
       {
-        "name": "sounds/mob/cat/meow1",
+        "name": "sounds/music/game/mob/cat1",
         "volume": 0.4
       },
       {
-        "name": "sounds/mob/cat/meow2",
+        // "name": "sounds/mob/cat/meow2",
+        "name":"sounds/music/game/mob/cat2",
         "volume": 0.3
       },
       {
-        "name": "sounds/mob/cat/meow3",
+        // "name": "sounds/mob/cat/meow3",
+        "name":"sounds/music/game/mob/cat3",
         "volume": 0.4
       },
       {
-        "name": "sounds/mob/cat/meow4",
+        // "name": "sounds/mob/cat/meow4",
+        "name":"sounds/music/game/mob/cat4",
         "volume": 0.3
+      },
+      {
+        "name":"sounds/music/game/mob/cat5",
+        "volume":0.3
+      },
+      {
+        "name":"sounds/music/game/mob/cat6",
+        "volume":0.3
+      },
+      {
+        "name":"sounds/music/game/mob/cat7",
+        "volume":0.3
       }
     ]
   },
@@ -4472,15 +4489,18 @@
     "category": "neutral",
     "sounds": [
       {
-        "name": "sounds/mob/cat/beg1",
+        //"name": "sounds/mob/cat/beg1",
+        "name":"sound/music/game/mob/cat1",
         "volume": 0.7
       },
       {
-        "name": "sounds/mob/cat/beg2",
+        "name":"sounds/music/game/mob/cat_hit2",
+        //"name": "sounds/mob/cat/beg2",
         "volume": 0.7
       },
       {
-        "name": "sounds/mob/cat/beg3",
+        "name":"sounds/music/game/mob/cat_hit3",
+        // "name": "sounds/mob/cat/beg3",
         "volume": 0.7
       }
     ]
