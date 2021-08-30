@@ -195,10 +195,7 @@
     ],
     "controls": [
     {
-	    "title_panel@fnxcore.title_panel": {}
-    },
-    {
-      "button_panel@fnxcore.button_panel":{}
+      "button_panel@rem.button_panel":{}
     },
     {
       "text_panel@start.text_panel": {}
