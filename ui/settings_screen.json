@@ -116,13 +116,13 @@
           "$toggle_group_forced_index": 4000,
           "ignored": "(not $include_controls_and_settings_sections)"
         }
-      },
-      {
+      },/*
+      { 
         "source_button@custom_settings_section.source_button": {
           "$toggle_group_forced_index": 6000,
           "ignored": "(not $include_controls_and_settings_sections)"
         }
-      },
+      },*/
       {
         "nakanomiku@settings_common.selector_group_label": {
           "ignored": "(not $include_controls_and_settings_sections)",
