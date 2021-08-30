@@ -11,7 +11,7 @@
   },
 
   "play_icon@rem.icon_0": {
-    "texture": "textures/fnxcore/start/play"
+    "texture": "textures/ui-x/icon/play"
   },
 
   "achievements_icon@rem.icon_0": {
