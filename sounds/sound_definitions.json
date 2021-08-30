@@ -1251,12 +1251,14 @@
   "game.player.hurt": {
     "category": "player",
     "sounds": [
-      "sounds/music/game/player/player-get-hit",
+      "sounds/damage/hit1",
       {
         "name": "sounds/music/game/player/player-get-hit",
+        //default : "name": "sounds/damage/hit2",
         "load_on_low_memory": true
       },
       "sounds/music/game/player/player-get-hit"
+      //default : "sounds/damage/hit3"
     ]
   },
   "game.player.die": {
@@ -4442,55 +4444,44 @@
   "mob.cat.hit": {
     "category": "neutral",
     "sounds": [
-      // "sounds/music/game/mob/cat_hit1",
-      // "sounds/music/game/mob/cat_hit2",
+      "sounds/mob/cat/hitt1",
       "sounds/mob/cat/hitt2",
       "sounds/mob/cat/hitt3"
-      // "sounds/music/game/mob/cat_hit3"
     ]
   },
   "mob.cat.meow": {
     "category": "neutral",
     "sounds": [
       {
-        // "name": "sounds/music/game/mob/cat1",
-        "name":"sounds/mob/cat/meow1",
+        "name": "sounds/mob/cat/meow1",
         "volume": 0.4
       },
       {
         "name": "sounds/mob/cat/meow2",
-        // "name":"sounds/music/game/mob/cat2",
         "volume": 0.3
       },
       {
         "name": "sounds/mob/cat/meow3",
-        // "name":"sounds/music/game/mob/cat3",
         "volume": 0.4
       },
       {
         "name": "sounds/mob/cat/meow4",
-        // "name":"sounds/music/game/mob/cat4",
         "volume": 0.3
       }
     ]
   },
-  //0x0000
-  //0x5000
   "mob.cat.beg": {
     "category": "neutral",
     "sounds": [
       {
         "name": "sounds/mob/cat/beg1",
-        // "name":"sounds/music/game/mob/cat1",
         "volume": 0.7
       },
       {
-        // "name":"sounds/music/game/mob/cat_hit2",
         "name": "sounds/mob/cat/beg2",
         "volume": 0.7
       },
       {
-        // "name":"sounds/music/game/mob/cat_hit3",
         "name": "sounds/mob/cat/beg3",
         "volume": 0.7
       }
@@ -5091,12 +5082,14 @@
   "random.chestclosed": {
     "category": "block",
     "sounds": [
+      //default : "sounds/random/chestclosed"
       "sounds/music/game/chest/medu-kyaa-update"
     ]
   },
   "random.chestopen": {
     "category": "block",
     "sounds": [
+      //default : "sounds/random/chestopen"
       "sounds/music/game/chest/yabe-kyaa-update"
     ]
   },
@@ -5115,13 +5108,15 @@
   "random.enderchestopen": {
     "category": "block",
     "sounds": [
-      "sounds/music/game/chest/yabe-kyaa-update"
+      //default : "sounds/block/enderchest/open"
+      "sounds/music/game/chest/medu-kyaa-update"
     ]
   },
   "random.enderchestclosed": {
     "category": "block",
     "sounds": [
-      "sounds/music/game/chest/medu-kyaa-update"
+      //default : "sounds/block/enderchest/close"
+      "sounds/music/game/chest/yabe-kyaa-update"
     ]
   },
   "random.potion.brewed": {
@@ -5189,35 +5184,32 @@
       "sounds/random/drink"
     ]
   },
+  //random.eat default aja, karena pake eating.ogg looping suaranya ditambah pitchnya lambat wkwkwk
   "random.eat": {
     "category": "player",
     "sounds": [
       {
-        "name": "sounds/music/game/player/eating",
+        "name": "sounds/random/eat1",
         "load_on_low_memory": true
       },
-      "sounds/music/game/player/eating"
+      "sounds/random/eat2",
+      "sounds/random/eat3"
     ]
   },
   "random.explode": {
     "category": "block",
     "sounds": [
-        
       {
-        "name":"sounds/music/game/mob/creeper-after",
-        "load_on_low_memory":true
-      }
+        "name": "sounds/music/game/mob/creeper-after",
+        //default : "name": "sounds/random/explode1",
+        "load_on_low_memory": true
+      },
       "sounds/music/game/mob/creeper-after",
       "sounds/music/game/mob/creeper-after",
       "sounds/music/game/mob/creeper-after"
-
-      /**{
-        "name": "sounds/random/explode1",
-        "load_on_low_memory": true
-      },
-      "sounds/random/explode2",
-      "sounds/random/explode3",
-      "sounds/random/explode4"**/
+      //default : "sounds/random/explode2",
+      //default : "sounds/random/explode3",
+      //default : "sounds/random/explode4"
     ]
   },
   "random.fizz": {
@@ -5226,6 +5218,7 @@
       "sounds/random/fizz"
     ]
   },
+  // Kukira fuse creeper ternyata bukan :()
   "random.fuse": {
     "category": "block",
     "sounds": [
@@ -6105,25 +6098,25 @@
     "category": "music",
     "sounds": [
       {
-        "name": "sounds/music/menu/mafumafu",
+        "name": "sounds/music/menu/menu1",
         "stream": true,
         "volume": 0.3,
         "load_on_low_memory": true
       },
       {
-        "name": "sounds/music/menu/mafumafu",
+        "name": "sounds/music/menu/menu2",
         "stream": true,
         "volume": 0.3,
         "load_on_low_memory": true
       },
       {
-        "name": "sounds/music/menu/mafumafu",
+        "name": "sounds/music/menu/menu3",
         "stream": true,
         "volume": 0.3,
         "load_on_low_memory": true
       },
       {
-        "name": "sounds/music/menu/mafumafu",
+        "name": "sounds/music/menu/menu4",
         "stream": true,
         "volume": 0.3,
         "load_on_low_memory": true
