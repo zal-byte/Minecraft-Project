@@ -5229,15 +5229,10 @@
     "category": "block",
     "sounds": [
       {
-<<<<<<< HEAD
-        "name": "sounds/music/game/mob/creeper-before",
         //default : "name": "sounds/random/fuse",
-=======
         "name": "sounds/random/creeper-before",
->>>>>>> efc4d7350ebd670a5d66dc263a93bd139d60b836
         "load_on_low_memory": true
       }
-      "sounds/music/game/mob/creeper-kokodayo"
     ]
   },
   "random.glass": {
