@@ -103,10 +103,10 @@
         "anchor_to": "left_middle",
         "animation_reset_name": "screen_animation_reset",
         "anims": [
-          "@anim_test.screen_exit_animation_push_offset",
-          "@anim_test.screen_exit_animation_pop_offset",
-          "@anim_test.screen_entrance_animation_push_offset",
-          "@anim_test.screen_entrance_animation_pop_offset"
+          "@common.screen_exit_size_animation_push",
+          "@common.screen_exit_size_animation_pop",
+          "@common.screen_entrance_size_animation_push",
+          "@common.screen_entrance_size_animation_pop"
         ],
         "controls": [
             { "panel_icon@rem.panel_icon": { "controls": [ { "icon0@rem.icon_play": {}}]}},

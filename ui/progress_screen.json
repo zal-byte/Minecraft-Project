@@ -1219,8 +1219,8 @@
         "world_modal_progress_panel@progress.world_modal_progress_panel": {}
       },
       {
-        "farhan_xn@fnx.play_icon": {
-          "size": [ 24 , 24 ],
+        "hentai@rem.icon_play": {
+          "size": [ 18 , 18 ],
           "offset": [ 15 , -15 ],
           "anchor_from": "bottom_left",
           "anchor_to": "bottom_left"

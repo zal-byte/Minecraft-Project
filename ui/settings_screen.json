@@ -108,7 +108,7 @@
       {
         "nakanoitsuki@settings_common.selector_group_label": {
           "ignored": "(not $include_controls_and_settings_sections)",
-          "text": "Versi Resourcepack"
+          "text": "Versi\nResourcepack"
         }
       },
       {
