@@ -5453,6 +5453,13 @@
       "sounds/step/grass6"
     ]
   },
+  "use.tntPlant": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/music/game/tnt/tnt1",
+      "sounds/music/game/tnt/tnt2"
+    ]
+  },
   "hit.grass": {
     "category": "neutral",
     "sounds": [

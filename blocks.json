@@ -408,7 +408,7 @@
       "down": "tnt_bottom",
       "side": "tnt_side"
     },
-    "sound": "grass"
+    "sound": "tnt_planted"
   },
   "bookshelf": {
     "textures": {
