@@ -110,10 +110,10 @@
         ],
         "controls": [
             { "panel_icon@rem.panel_icon": { "controls": [ { "icon0@rem.icon_play": {}}]}},
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon0@rem.icon_achie": {}}]}},
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon0@rem.icon_store": {}}]}},
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon0@rem.icon_profile": {}}]}},
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon0@rem.icon_settings": {}}]}}
+            { "panel_icon@rem.panel_icon": { "controls": [ { "icon1@rem.icon_achie": {}}]}},
+            { "panel_icon@rem.panel_icon": { "controls": [ { "icon2@rem.icon_store": {}}]}},
+            { "panel_icon@rem.panel_icon": { "controls": [ { "icon3@rem.icon_profile": {}}]}},
+            { "panel_icon@rem.panel_icon": { "controls": [ { "icon4@rem.icon_settings": {}}]}}
           ]
         }
       }
@@ -205,7 +205,6 @@
         { "button_panel_1@rem.button_panel_1": {}},
         { "skin_panel@rem.skin_panel": {}},
         { "button_dan_icon@rem.button_dan_icon": {}}
-     //   { "title_panel_content@common_art.title_panel_content": { "$splash_text_visible": false , "size": [ "100%" , 75 ],"offset": [ 0 , -3 ] }}
       ]
     }
   }
