@@ -1234,6 +1234,16 @@
     "type": "panel",
     "controls": [
       {
+        "title": {
+          "type": "image",
+          "texture": "textures/ui/title",
+          "size": [ "100%" , 68 ],
+          "anchor_from": "middle",
+          "anchor_to": "middle",
+          "offset": [ 0 , 0 ]
+        }
+      },
+      {
         "world_modal_progress_panel@progress.world_modal_progress_panel": {}
       },
       {
