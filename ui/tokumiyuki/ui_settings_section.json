@@ -647,9 +647,9 @@
     "$glyph_texture": "textures/ui-x/icon/source_icon",
     "$glyph_color_texture": "textures/ui-x/icon/source_icon",
     "$glyph_size": [ 23, 23 ],
-    "$button_text": "Source (BETA)",
+    "$button_text": "Source",
     "$toggle_property_bag": {
-      "#panel_title": "Source (BETA)"
+      "#panel_title": "Source"
     }
   },
 
@@ -667,6 +667,85 @@
       }
     ],
     "controls": [
+      { "a10@custom_settings_section.fxn_label_2": { "font_size": "large", "text": "Source"}},
+      { "a12": { "type": "panel", "size": [ 8 , 8]}},
+      { "build@custom_settings_section.fxn_label": { "text": "Music : " ,"shadow": false }},
+      { "build_2@custom_settings_section.fxn_label": { "font_size":"", "text": "女の子になりたい（I wanna be a girl）" , "shadow": false }},
+      {
+        "yt2@settings_common.link_button": {
+              "$button_text": "女の子になりたい（I wanna be a girl）",
+              "font_type": "MinecraftTen",
+              "color": [ 1.0 , 1.0 , 1.0 ],
+              "size": [ "100%" , 30 ],
+              "property_bag": {
+              "property_bag": {
+              "#hyperlink": "https://www.youtube.com/watch?v=ucbx9we6EHk"
+            }
+          }  
+        }
+      },
+      { "space": { "type": "panel", "size": [ 3 , 3 ]}},
+      { "build@custom_settings_section.fxn_label": { "text": "Background : " ,"shadow": false }},
+      { "build_2@custom_settings_section.fxn_label": { "font_size":"", "text": "女の子になりたい（I wanna be a girl）" , "shadow": false }},
+      {
+        "yt3@settings_common.link_button": {
+              "$button_text": "女の子になりたい（I wanna be a girl）",
+              "font_type": "MinecraftTen",
+              "color": [ 1.0 , 1.0 , 1.0 ],
+              "size": [ "100%" , 30 ],
+              "property_bag": {
+              "property_bag": {
+              "#hyperlink": "https://www.youtube.com/watch?v=ucbx9we6EHk"
+            }
+          }  
+        }
+      },
+      {
+        "line": {
+          "type": "panel",
+          "size": [ "100%", "100%c + 14px" ],
+          "controls": [
+            {
+              "section_line": {
+                "type": "image",
+                "size": [ "100% - 5px", 1 ],
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "layer": 3,
+                "texture": "textures/ui/list_item_divider_line_light"
+              }
+            }
+          ]
+        }
+      },
+      { "a11@custom_settings_section.fxn_label_2": { "font_size": "large", "text": "Support\nMafu - Mafu"}},
+      {
+        "yt@settings_common.link_button": {
+              "$button_text": "Youtube Mafu-Mafu",
+              "font_type": "MinecraftTen",
+              "color": [ 1.0 , 1.0 , 1.0 ],
+              "size": [ "100%" , 30 ],
+              "property_bag": {
+              "property_bag": {
+              "#hyperlink": "https://www.youtube.com/c/uni_mafumafu"
+            }
+          }  
+        }
+      },
+      { "space": { "type": "panel", "size": [ 3 , 3 ]}},
+      {
+        "twitter@settings_common.link_button": {
+              "$button_text": "Twiter Mafu-Mafu",
+              "font_type": "MinecraftTen",
+              "color": [ 1.0 , 1.0 , 1.0 ],
+              "size": [ "100%" , 30 ],
+              "property_bag": {
+              "property_bag": {
+              "#hyperlink": "https://twitter.com/uni_mafumafu"
+            }
+          }  
+        }
+      }
       ]
     }
   }
