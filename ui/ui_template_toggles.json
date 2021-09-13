@@ -244,8 +244,8 @@
 
     "$checked_image|default": "common.empty_panel",
     "$unchecked_image|default": "common.empty_panel",
-    "$default_border_color": [ 0.0, 0.0, 0.0 ], // Default : "$light_border_toggle_default_color",
-    "$hover_border_color": [ 1.00, 1.00, 1.00 ], // Default :"$light_border_toggle_hover_color",
+    "$default_border_color": "$light_border_toggle_default_color",
+    "$hover_border_color": "$light_border_toggle_hover_color",
     "$locked_alpha": 1,
 
     "$toggle_binding_type|default": "none",
