@@ -1,128 +1,104 @@
 {
     "namespace": "rem",
 
-  // I C O N
-  "icon_0": {
-    "type": "image",
-    "$texture|default": "textures/ui-x/icon/none",
-    "size": [ 18 , 18 ],
-    "anchor_from": "left_middle",
-    "anchor_to": "left_middle"
-  },
-
-  "play_icon@rem.icon_0": {
-    "texture": "textures/ui-x/icon/play"
-  },
-
-  "achievements_icon@rem.icon_0": {
-    "texture": "textures/ui-x/icon/achievements_icon"
-  },
-
-  "settings_icon@rem.icon_0": {
-    "texture": "textures/ui-x/icon/settings_icon"
-  },
-
-  "store_icon@rem.icon_0": {
-    "texture": "textures/ui-x/icon/store_icon"
-  },
-
-  "profile_icon@rem.icon_0": {
-    "texture": "textures/ui-x/icon/profile_icon"
-  },
+ // common version
+ 
 
   "exit_icon@rem.icon_0": {
     "color": [ 1.0, 1.0, 1.0 ],
     "texture": "textures/ui-x/icon/exit_icon"
   },
 
-
-  /*
-  ============================>
-  BUTTON DAN ICON
-  ============================>
-  */
-
-  "button_bg": {
-    "type": "panel",
-  //  "texture": "textures/ui-x/dialog/bg",
-    "size": [ 150 , "100%" ]
-  },
-
-  "icon_play@rem.button_bg": {
-  "controls": [
-      { "icon@rem.play_icon": { "offset": [ 5 , 0 ] }},
-      { "play@neko_button.play_button": {}}
-    ]
-  },
-
-  "icon_store@rem.button_bg": {
-  "controls": [
-      { "icon@rem.store_icon": { "offset": [ 5 , 0 ] }},
-      { "store@neko_button.store_button": {}}
-    ]
-  },
-
-  "icon_achie@rem.button_bg": {
-  "controls": [
-      { "icon@rem.achievements_icon": { "offset": [ 5 , 0 ]}},
-      { "achievements@neko_button.achievements_button": {}}
-    ]
-  },
-
-  "icon_settings@rem.button_bg": {
-  "controls": [
-      { "icon@rem.settings_icon": { "offset": [ 5 , 0 ]}},
-      { "settings@neko_button.settings_button": {}}
-    ]
-  },
-            
-  "icon_profile@rem.button_bg": {
-  "controls": [
-      { "icon@rem.profile_icon": { "offset": [ 5 , 0 ]}},
-      { "profile@neko_button.profile_button": {}}
-    ]
-  },
-
   "panel_icon": {
     "type": "panel",
-    "size": [ "100% - 5px" , "35px - 5px"]
+    "size": [ "100%" , "30px - 2px"]
+  },
+
+  "panel_icon_1": {
+    "type": "panel",
+    "offset": [ -5 , 0 ],
+    "size": [ "100%" , "24px - 4px"]
+  },
+
+  "panel_icon_2": {
+    "type": "panel",
+    "size": [ "100%" , "30px - 2px"]
   },
   
   "button_dan_icon": {
     "type": "panel",
-    "size": [ 130 , "100%" ], 
-    "offset": [ 18 , 0 ],
-    "anchor_from": "left_middle",
-    "anchor_to": "left_middle",
+    "size": [ 110 , "100%" ],
+    "anchor_from": "bottom_left",
+    "anchor_to": "bottom_left",
+    "offset": [ 5 , -5 ],
     "controls": [
       {
        "stack_panel_0": {
         "type": "stack_panel",
         "size": [ "100%" , "100%c" ],
-        "anchor_from": "left_middle",
-        "anchor_to": "left_middle",
+        "orientation": "vertical",
+        "anchor_from": "bottom_left",
+        "anchor_to": "bottom_left",
         "animation_reset_name": "screen_animation_reset",
         "anims": [
-          "@anim_test.screen_exit_animation_push_offset",
-          "@anim_test.screen_exit_animation_pop_offset",
-          "@anim_test.screen_entrance_animation_push_offset",
-          "@anim_test.screen_entrance_animation_pop_offset"
+          "@anim_test.screen_exit_animation_push_offset_2",
+          "@anim_test.screen_exit_animation_pop_offset_2",
+          "@anim_test.screen_entrance_animation_push_offset_2",
+          "@anim_test.screen_entrance_animation_pop_offset_2"
         ],
         "controls": [
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon0@rem.icon_play": {}}]}},
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon1@rem.icon_achie": {}}]}},
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon2@rem.icon_store": {}}]}},
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon3@rem.icon_profile": {}}]}},
-            { "panel_icon@rem.panel_icon": { "controls": [ { "icon4@rem.icon_settings": {}}]}}
+          { "panel_icon_1@rem.panel_icon": {"controls": [ { "panel_nama_player@loli.panel_nama_player": {}}]}}
           ]
         }
       }
     ]
   },
 
+  "button_dan_icon_2": {
+    "type": "panel",
+    "size": [ 110 , "100%" ],
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "offset": [ -5 , 0 ],
+    "controls": [
+      {
+       "stack_panel_0": {
+        "type": "stack_panel",
+        "size": [ "100%" , "100%c" ],
+        "orientation": "vertical",
+        "anchor_from": "left_middle",
+        "anchor_to": "left_middle",
+        "animation_reset_name": "screen_animation_reset",
+        "anims": [
+          "@anim_test.screen_exit_animation_push_offset_2",
+          "@anim_test.screen_exit_animation_pop_offset_2",
+          "@anim_test.screen_entrance_animation_push_offset_2",
+          "@anim_test.screen_entrance_animation_pop_offset_2"
+        ],
+        "controls": [
+          { "panel_icon_2@rem.panel_icon_2": {"controls":[{ "icon1@neko_button.play_button": {}}]}},
+          { "panel_icon_2@rem.panel_icon_2": {"controls":[{ "icon1@neko_button.store_button": {}}]}},
+          { "panel_icon_2@rem.panel_icon_2": {"controls":[{ "icon1@neko_button.achievements_button": {}}]}},
+          { "panel_icon_2@rem.panel_icon_2": {"controls":[{ "icon1@neko_button.profile_button": {}}]}},
+          { "panel_icon_2@rem.panel_icon_2": {"controls":[{ "icon1@neko_button.settings_button": {}}]}}
+          ]
+        }
+      }
+    ]
+  },
+
+  "bg_2": {
+    "type":  "image",
+    "texture": "textures/ui-x/dialog/bg",
+    "size": [ "100%" , "100%" ]
+  },
+
     /// Button Profile , Skins , Feedback
 		
     "feedback_button@common_buttons.light_content_button": {
+    "$default_button_texture|default": "",
+    "$hover_button_texture|default": "",
+    "$pressed_button_texture|default": "",
 		"$button_content": "fnx.feedback_icon",
     "size": [ 24 , 24 ],
     "$light_border_default_color": [ 0.0 , 0.0 , 0.0 ],
@@ -135,6 +111,9 @@
     },
 
     "exit_button@common_buttons.light_content_button": {
+      "$default_button_texture|default": "",
+      "$hover_button_texture|default": "",
+      "$pressed_button_texture|default": "",
 		"$button_content": "rem.exit_icon",
     "$pressed_button_name": "button.menu_exit",
     "size": [ 24 , 24 ],
@@ -144,28 +123,22 @@
 
     "stacked_row_0": {
       "type": "panel",
-      "size": [ 27 , 24 ] // x y
+      "size": [ "27px" , "24px" ] // x y
     },
 
     "button_panel_1": {
       "type": "panel",
-      "anchor_from": "top_left",
-      "anchor_to": "top_left",
+      "anchor_from": "top_right",
+      "anchor_to": "top_right",
       "size": [ "100%" , 24 ],
-      "offset": [ 0 , 3 ],
-      "animation_reset_name": "screen_animation_reset",
-      "anims": [
-        "@anim_test.screen_exit_animation_push_offset",
-        "@anim_test.screen_exit_animation_pop_offset",
-        "@anim_test.screen_entrance_animation_push_offset",
-        "@anim_test.screen_entrance_animation_pop_offset"
-      ],
+      "offset": [ -5 , 5 ],
       "controls": [
         {
           "stack_button_panel_1": {
             "type" : "stack_panel",
+            "anchor_from": "top_right",
+            "anchor_to": "top_right",
             "orientation": "horizontal",
-            "size": [ "100%", "100%"],
             "controls": [
               {
                 "stacked_row_0@rem.stacked_row_0": { "controls": [{ "feedback_button@rem.feedback_button": {}}]}
@@ -200,11 +173,11 @@
   "type": "panel",
   "controls": [      
         { "bg@rem.bg": {}},
-        { "panel_icon@rem.panel_icon": { "anchor_from": "bottom_left", "anchor_to": "bottom_left",  "controls": [ { "panel_nama_player@loli.panel_nama_player": {}}]}},
-        { "panel_icon@rem.panel_icon": { "anchor_from": "bottom_right", "anchor_to": "bottom_right",  "controls": [ { "version_panel@loli.version_panel": {}}]}},
+        { "version_panel@loli.version_panel": {}},
         { "button_panel_1@rem.button_panel_1": {}},
         { "skin_panel@rem.skin_panel": {}},
-        { "button_dan_icon@rem.button_dan_icon": {}}
+        { "button_dan_icon@rem.button_dan_icon": {}},
+        { "button_dan_icon_2@rem.button_dan_icon_2": {}}
       ]
     }
   }
