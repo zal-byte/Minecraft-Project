@@ -3,16 +3,16 @@
     "header": {
         "description": "My Facebook : Han",
         "name": "§dWeeb§fEdition",
-        "uuid": "2db192c5-1c44-4298-b6df-8fc0da23814e",
-        "version": [1, 7, 5],
-        "min_engine_version": [ 1, 16, 0 ]
+        "uuid": "0fa51a3b-3640-4071-b36a-73b36df72c3b",
+        "version": [2, 0, 0],
+        "min_engine_version": [1, 16, 0]
     },
     "modules": [
         {
             "description": "My Facebook : Han",
             "type": "resources",
-            "uuid": "76986314-44b7-463d-980b-86c650ad78e7",
-            "version": [1, 7, 5]
+            "uuid": "8398fb6c-d314-4546-9f19-e09c625e6478",
+            "version": [2, 0, 0]
         }
     ]
 }
