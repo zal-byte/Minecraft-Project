@@ -1,0 +1,37 @@
+{
+    "namespace": "neko_c",
+
+    ///////////////////////////////////////
+    //
+    // MAIN UI
+    //
+    ///////////////////////////////////////
+
+    "label": {
+      "type": "label",
+      "size": [ "100%" , "10px" ],
+      "layer": 2
+    },
+
+    "weebs@neko_c.label": {
+      "layer": 5,
+      "size": [ "100%" , 50 ],
+      "text": "Resourcepack Weebs Edition Version 1.8\nCreated By Han\n§4B   E   T   A",
+      "font_size": "small"
+    },
+
+    ///////////////////////////////////////
+    //
+    // S E T T I N G S
+    //
+    ///////////////////////////////////////
+
+    "logo_ui": { "type": "image", "texture": "textures/ui-x/icon/title", "size": [ "100%" , 95 ]},
+    // Versi
+    "version_title@custom_settings_section.fxn_label": { "text": "Version : " ,"shadow": false },
+    "version_number@custom_settings_section.fxn_label": { "font_size":"large", "text": "v1.8 | Beta" , "shadow": false },
+    // Build
+    "build_title@custom_settings_section.fxn_label": { "text": "Build : " ,"shadow": false },
+    "build_number@custom_settings_section.fxn_label": { "font_size":"large", "text": "112" , "shadow": false },
+    "about@custom_settings_section.fxn_label": { "text": "Weebs Resourcepack\nCreated By Farhan(Han)" ,"shadow": false }
+}
