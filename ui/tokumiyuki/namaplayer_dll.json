@@ -24,10 +24,10 @@
     "type": "label",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
+    "font_type": "MinecraftTen",
     "size": [ "70%", 10 ],
     "max_size": [ "80%" , "100%" ],
-    "color": [ 1.0 , 1.0, 1.0 ]
-   // "font_type": "MinecraftTen"
+    "color": [ 1.0, 1.0, 1.0]
   },
 
   "profn@loli.profile_label": {
@@ -70,40 +70,38 @@
     "controls": [
          {
            "profile_name@loli.profn": {
-           "offset": [ 2 , 6 ]
+           "offset": [ 2 , 4 ]
           }
        },
           {
             "playername@loli.playername": {
-            "offset": [ 2 , 13 ]
+            "offset": [ 2 , 9 ]
           }
         }
       ]
     },
 
     "panel": {
-      "type": "panel",
-    //  "texture": "textures/ui-x/dialog/bg",
-      "size": [ 150 , "100%" ]
+      "type": "image",
+      "layer": 5,
+      "offset": [ -2 , 0 ],
+      "texture": "textures/ui-x/dialog/bg_2"
     },
 
     "panel_nama_player@loli.panel": {
-      "offset": [ 5 , -20 ],
-      "size": [ "100%" , "100%" ],
+      "size": [ "100% - 4px" , "100% - 2px" ],
       "controls": [
         {
           "stack_panel": {
           "type": "stack_panel",
           "size": [ "100%" , "100%" ],
-          "orientation": "horizontal",
-          "anchor_from": "bottom_left",
-          "anchor_to": "bottom_left", 
+          "orientation": "horizontal", 
           "animation_reset_name": "screen_animation_reset",
           "anims": [
-            "@anim_test.screen_exit_animation_push_offset",
-            "@anim_test.screen_exit_animation_pop_offset",
-            "@anim_test.screen_entrance_animation_push_offset",
-            "@anim_test.screen_entrance_animation_pop_offset"
+            "@anim_test.screen_exit_animation_push_offset_2",
+            "@anim_test.screen_exit_animation_pop_offset_2",
+            "@anim_test.screen_entrance_animation_push_offset_2",
+            "@anim_test.screen_entrance_animation_pop_offset_2"
           ],
           "controls": [
               {
@@ -128,10 +126,10 @@
 
     "label": {
       "type": "label",
-      "anchor_from": "top_right",
-      "anchor_to": "top_right",
-      "size": [ "default" , 10 ],
-      "font_size": "",
+      "size": [ "100%" , "10px" ],
+    "text_alignment": "right",
+
+      "font_size": "small",
       "color": [ 1.0, 1.0, 1.0],
       "layer": 2
     },
@@ -153,40 +151,19 @@
       ]
     },
 
-    "weebs@loli.label": {
-      "layer": 5,
-      "text": "Resourcepack Weebs Edition Version 1.7.5\nCreated By Han",
-      "font_size": "small"
-    },
-
-    "version_panel": {
-      "type": "panel",
-      "offset": [ -5 , 8 ],
-      "size": [ "100%" , 20 ],
-      "anchor_from": "bottom_right",
-      "anchor_to": "bottom_right",
-      "animation_reset_name": "screen_animation_reset",
-      "anims": [
-        "@anim_test.screen_exit_animation_push_offset",
-        "@anim_test.screen_exit_animation_pop_offset",
-        "@anim_test.screen_entrance_animation_push_offset",
-        "@anim_test.screen_entrance_animation_pop_offset"
-      ],
-      "controls": [
-        {
-          "stack_panel": {
-          "type": "stack_panel",
-          "size": [ "100%" , "100%" ],
-          "orientation": "horizontal",
-          "controls": [
-            { "copyright@loli.copyright": {}},
-            { "space": {"type": "panel", "size": [ 5 , 5 ]}},
-            { "version@loli.version": {}},
-            { "space": {"type": "panel", "size": [ 3 , 3 ]}},
-            { "weebs@loli.weebs": {}}
-            ]
-          }
-        }
+  "version_panel": {
+  "type": "stack_panel",
+  "offset": [ -5 , 0 ],
+  "anchor_from": "bottom_right",
+  "anchor_to": "bottom_right",
+  "size": [ "100%" , 50 ],
+  "orientation": "vertical",
+  "controls": [
+        { "copyright@loli.copyright": {}},
+        { "space": {"type": "panel", "size": [ 2 , 2 ]}},
+        { "version@loli.version": {}},
+        { "space": {"type": "panel", "size": [ 2 , 2 ]}},
+        { "weebs@neko_c.weebs": {}}
       ]
     }
  }

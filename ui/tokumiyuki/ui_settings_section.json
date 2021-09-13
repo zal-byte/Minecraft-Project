@@ -566,14 +566,12 @@
       }
     ],
     "controls": [
-      // logo UI
-      { "logo_ui": { "type": "image", "texture": "textures/ui-x/icon/title", "size": [ "100%" , 95 ]}},
+      { "logo_ui@neko_c.logo_ui": {}},
       { "spacer": { "type": "panel", "size": [ 10 , 10 ]}},
-      // Versi
-      { "version@custom_settings_section.fxn_label": { "text": "Version : " ,"shadow": false }},
-      { "version_2@custom_settings_section.fxn_label": { "font_size":"large", "text": "v1.7.7 | Stable" , "shadow": false }},
+      { "version_title@neko_c.version_title": {}},
+      { "version_number@neko_c.version_number": {}},
       {
-        "dividerAudioSettings": {
+        "line_a": {
           "type": "panel",
           "size": [ "100%", "100%c + 14px" ],
           "controls": [
@@ -591,11 +589,11 @@
         }
       },
       // Build
-      { "build@custom_settings_section.fxn_label": { "text": "Build : " ,"shadow": false }},
-      { "build_2@custom_settings_section.fxn_label": { "font_size":"large", "text": "097" , "shadow": false }},
-      { "about@custom_settings_section.fxn_label": { "text": "Weebs Resourcepack\nCreated By Farhan(Han)" ,"shadow": false }},
+      { "build_title@neko_c.build_title": {}},
+      { "build_number@neko_c.build_number": {}},
+      { "about@neko_c.about": {}},
       {
-        "dividerAudioSettings": {
+        "line_a": {
           "type": "panel",
           "size": [ "100%", "100%c + 14px" ],
           "controls": [
