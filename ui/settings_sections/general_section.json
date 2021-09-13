@@ -3638,8 +3638,8 @@
   "sound_section": {
     "type": "stack_panel",
     "size": [ "100%", "100%c" ],
-	"$spatialPatternsPadding": ["100%", 36], // Default :  ["100%", 36]
-	"$audioSlidersSize": [ "95% - 2px", 20 ], // Default : [ "75% - 2px", 16 ]
+	"$spatialPatternsPadding": ["100%", 25],
+	"$audioSlidersSize": [ "100% - 2px", 16 ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "bindings": [
@@ -5165,6 +5165,13 @@
           "$option_binding_name": "#automation_repeat_failures_only",
           "$option_enabled_binding_name": "#automation_repeat_failures_only",
           "$toggle_name": "automation_repeat_failures_only"
+        }
+      },
+      {
+        "automation_run_entire_server_test_group@settings_common.option_toggle": {
+          "$option_label": "Enable Running Entire Server Test Group",
+          "$option_binding_name": "#automation_run_entire_server_test_group",
+          "$toggle_name": "automation_run_entire_server_test_group"
         }
       },
       {

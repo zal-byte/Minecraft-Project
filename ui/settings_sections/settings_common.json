@@ -373,7 +373,7 @@
 
   "option_toggle_state_template": {
     "type": "image",
-    "size": [ 30 , 16 ],
+    "size": [ 30, 16 ],
     "anchor_from": "top_left",
     "anchor_to": "top_left"
   },
@@ -463,7 +463,7 @@
 
   "radio_visuals": {
     "type": "panel",
-    "size": [ "100%", 25 ],
+    "size": [ "100%", 16 ],
     "$alpha|default": 1.0,
     "$radio_label_bindings|default": [],
     "$radio_label_color|default": "$main_header_text_color",
@@ -489,7 +489,7 @@
           "alpha": "$alpha",
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
-          "size": [ 15, 15 ],
+          "size": [ 10, 10 ],
           "layer": 2
         }
       },
@@ -500,9 +500,9 @@
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
           "text": "$radio_label_text",
-          "font_type": "MinecraftTen",
+          "font_type": "$radio_label_font_type",
           "color": "$radio_label_color",
-          "offset": [ 18, 0 ], // default  : x16 y0.5
+          "offset": [ 16, 0.5 ],
           "size": [ "100% - 16px", "default" ],
           "alpha": "$alpha",
           "bindings": "$radio_label_bindings",
@@ -584,7 +584,7 @@
     "type": "panel",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ "100%", "25px" ],
+    "size": [ "100%", "17px" ],
     "offset": [ 3, 0 ],
     "$enabled|default": true,
     "controls": [
@@ -639,7 +639,7 @@
           "texture": "textures/ui/White",
           "keep_ratio": false,
           "size": [ "100% - 4px", "100%sm" ],
-          "color": "$radio_background_color", 
+          "color": "$radio_background_color",
           "layer": 1
         }
       },
@@ -784,13 +784,13 @@
     ]
   },
 
-  "option_slider_control": { // Di Ubah
+  "option_slider_control": {
     "type": "panel",
     "size": [ "100% - 2px", 23 ],
     "controls": [
       {
         "slider@common.slider": {
-          "size": [ "100%-4px", 20 ], // Default : [ "100%-8px", 10 ],
+          "size": [ "100%-8px", 20 ],
           "$slider_box_size": [ 10, 16 ],
           "offset": [ 1, 0 ],
 
@@ -942,7 +942,7 @@
 
   "option_dropdown_control": {
     "type": "panel",
-    "$option_dropdown_size|default": [ "100%", 35 ], // DEFAULT x 100% y 30
+    "$option_dropdown_size|default": [ "100%", 30 ],
     "size": "$option_dropdown_size",
     "anchor_from": "center",
     "anchor_to": "center",
@@ -1181,6 +1181,12 @@
         "scope": "view"
       }
     ],
+    "variables": [
+      {
+        "requires": "($is_realm_slot or $realm_no_world_edit)",
+        "$screen_background_control": "realms_slots.realms_background"
+      }
+    ],
     "$screen_content": "settings_common.settings_content",
     "$header_safezone_control": "common_store.store_top_bar_filler",
     "$header_bar_control": "common_store.store_top_bar",
@@ -1191,19 +1197,27 @@
     "type": "panel",
     "controls": [
 		// Adding fill background color for all settings.
- 	/*	{
-			"background": {
-				"type": "image",
-				"texture": "textures/ui/white",
-				"keep_ratio": false,
-				"size": [ "100%", "100%sm" ],
-				"color": [0.0, 0.0, 0.0],  // First test: [0.239, 0.204, 0.204]
-				"offset": [0,0],
-				"layer": -1,
-				"anchor_from": "top_left",
-				"anchor_to": "top_left"
-			  }
-		}, */
+		{
+      "background": {
+        "$layer|default": -1,
+        "variables": [
+          {
+            "requires": "($is_realm_slot or $realm_no_world_edit)",
+            "$layer": -2
+          }
+        ],
+        "type": "image",
+        "texture": "textures/ui/White",
+        "keep_ratio": false,
+        "size": [ "100%", "100%sm" ],
+        "alpha": 0.30 ,
+        "color": [ 0.08, 0.08, 0.08 ], // First test: [0.239, 0.204, 0.204]
+        "offset": [ 0, 0 ],
+        "layer": "$layer",
+        "anchor_from": "top_left",
+        "anchor_to": "top_left"
+      }
+		},
 
       {
         "stack_panel": {
@@ -1301,7 +1315,6 @@
       {
         "tab_button_text": {
           "type": "label",
-          "font_type": "",
           "anchor_from": "left_middle",
           "anchor_to": "left_middle",
           "size": [ "100% - 38px", "default" ],
@@ -1356,6 +1369,8 @@
     "font_type": "MinecraftTen",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
+    "size": [ "90%", "10px" ],
+    "max_size": [ "95%", "10px" ],
     "offset": [ 5 , 1 ],
     "layer": 2,
     "color": "$title_text_color",
@@ -1373,6 +1388,8 @@
     "type": "label",
     "offset": [ 5 , 1 ],
     "font_type": "MinecraftTen",
+    "size": [ "90%", "10px" ],
+    "max_size": [ "95%", "10px" ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "layer": 2,
@@ -1390,7 +1407,7 @@
     "orientation": "vertical",
     "anchor_from": "top_left",
     "anchor_to": "top_left",
-    "size": [ "100%", 35 ],
+    "size": [ "15%", 35 ],
     "offset": [ 35, 2.5 ],
     "controls": [
       {
@@ -1398,6 +1415,7 @@
           "size": [ "default", "default" ]
         }
       },
+      { "spaces": {"type": "panel", "size": [ 2, 2 ]}},
       {
         "section_title_label@settings_common.section_title_label": {
           "size": [ "default", "default" ]
@@ -1431,13 +1449,14 @@
       { "dialog_titles@settings_common.dialog_titles": {} }
     ]
   },
+  
 
   "dialog_content": {
     "type": "panel",
     "anchor_from": "top_middle",
     "anchor_to": "top_middle",
     "controls": [
-      { "dialog_titles_dan_tombol@settings_common.dialog_titles_dan_tombol": {} },
+      { "bg@rem.bg_2": { "alpha": 0.30 ,"anchor_from": "top_left","anchor_to": "top_left", "size" : [ "100%" ,"30px"], "offset": [ 0 , -3 ], "controls": [{"dialog_titles_dan_tombol@settings_common.dialog_titles_dan_tombol": {}}]}},
       { "selector_area@settings_common.selector_area": {} },
       { "content_area@settings_common.content_area": {} }
       //{ "section_divider@settings_common.section_divider": {} }
@@ -1461,10 +1480,10 @@
   },
 
   // left side
-  "selector_area": {  // Di Ubah
+  "selector_area": {
     "type": "panel",
-    "offset": [ 2, 30 ],
-    "size": [ "25% - 3px", "95% - 19px" ], // Default :  [ "40% - 3px", "100% - 19px" ],
+    "offset": [ 2, "32px" ],
+    "size": [ "30% - 3px", "95% - 19px" ],
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "layer": 2,
@@ -1491,10 +1510,10 @@
   },
 
   // right side
-  "content_area": { // Di Ubah 
+  "content_area": {
     "type": "panel",
-    "offset": [ "-1px", 30 ],
-    "size": [ "75% - 8px", "95% - 19px" ], // Default : [ "60% - 8px", "100% - 19px" ],
+    "offset": [ "-1px", "32px" ],
+    "size": [ "70% - 8px", "95% - 19px" ],
     "anchor_from": "top_right",
     "anchor_to": "top_right",
     "layer": 1,
