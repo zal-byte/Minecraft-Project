@@ -4,7 +4,7 @@
         "description": "My Facebook : Han",
         "name": "§dWeeb§fEdition",
         "uuid": "0fa51a3b-3640-4071-b36a-73b36df72c3b",
-        "version": [2, 0, 0],
+        "version": [1, 8, 0],
         "min_engine_version": [1, 16, 0]
     },
     "modules": [
@@ -12,7 +12,7 @@
             "description": "My Facebook : Han",
             "type": "resources",
             "uuid": "8398fb6c-d314-4546-9f19-e09c625e6478",
-            "version": [2, 0, 0]
+            "version": [1, 8, 0]
         }
     ]
 }
