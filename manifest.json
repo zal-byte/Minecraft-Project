@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "header": {
-        "description": "My Facebook : Han",
+        "description": "Di buat oleh Han><\nMy Facebook : Han",
         "name": "§dWeeb§fEdition",
         "uuid": "65e308fe-ae9a-4bc8-af0b-5fc71178a601",
         "version": [1, 8, 0],
@@ -9,7 +9,7 @@
     },
     "modules": [
         {
-            "description": "My Facebook : Han",
+            "description": "Di buat oleh Han><\nMy Facebook : Han",
             "type": "resources",
             "uuid": "80c59bdc-ab96-44c1-8482-e6b766494cc6",
             "version": [1, 8, 0]
