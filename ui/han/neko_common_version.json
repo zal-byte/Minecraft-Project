@@ -10,6 +10,8 @@
     "label": {
       "type": "label",
       "size": [ "100%" , "10px" ],
+      "anchor_from": "top_right",
+      "anchor_to": "top_right",
       "layer": 2
     },
 
