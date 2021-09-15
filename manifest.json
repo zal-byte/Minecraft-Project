@@ -3,7 +3,7 @@
     "header": {
         "description": "My Facebook : Han",
         "name": "§dWeeb§fEdition",
-        "uuid": "0fa51a3b-3640-4071-b36a-73b36df72c3b",
+        "uuid": "65e308fe-ae9a-4bc8-af0b-5fc71178a601",
         "version": [1, 8, 0],
         "min_engine_version": [1, 17, 0]
     },
@@ -11,7 +11,7 @@
         {
             "description": "My Facebook : Han",
             "type": "resources",
-            "uuid": "8398fb6c-d314-4546-9f19-e09c625e6478",
+            "uuid": "80c59bdc-ab96-44c1-8482-e6b766494cc6",
             "version": [1, 8, 0]
         }
     ]
